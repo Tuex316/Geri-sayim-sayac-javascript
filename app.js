@@ -44,7 +44,7 @@ function startTimer() {
         sn = 59;
       }
       if ((dk == 00 && sn == 00) || (dk == 0 && sn == 0)) {
-        var audio = new Audio("https://firebasestorage.googleapis.com/v0/b/sayac-e7275.appspot.com/o/nokia-ringtone.mp3?alt=media&token=854fb3e6-0084-4aa2-b4c6-d09bdbc353ce");
+        var audio = new Audio("buraya sadece şarkı olan bir url veya ses dosyası yolunu yapıştırabilirsiniz");
         audio.play();
         clearInterval(interval);
         SeçilenDk.value = "00";
