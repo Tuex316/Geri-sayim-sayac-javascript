@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sayaç</title>
+    <link rel="stylesheet" href="app.css"/>
+   
+</head>
+<body>
+    <div class="container">
+        <h1><span id="dakika">00</span>:<span id="saniye">00</span></h1>
+        <form>
+            <label>
+            Dakika
+            <input id="SeçilenDk" type="number" min="0" max="59" value="00"/>
+        </label>
+        <label>
+            Saniye
+            <input id="SeçilenSn" type="number" min="0" max="59" value="00"/>
+        </label>
+        </form>
+        <button id="başlat">Başlat</button>
+        <button id="sıfırla">Sıfırla</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
